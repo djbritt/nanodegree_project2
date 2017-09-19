@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  @include box-sizing(border-box);
 }
 
 body {
@@ -46,8 +45,9 @@ header {
   padding: 1em;
 }
 
-.featured h2 {
+.featuredText {
   color: #7d97ad;
+  font-size: 40px;
 }
 
 .mainImage {
@@ -78,6 +78,7 @@ header {
   .name {
     width: 100%;
   }
+
   .photo {
     width: 50%;
     float: left;
